@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@layer components{
+  .footer-link{
+    @apply text-base p-2 py-1 text-purple-50
+  }
+  .nav-link{
+    @apply text-pink-50 hover:text-white active:text-white active:underline focus:underline focus:text-white
+  }
+  .nav-login{
+    @apply px-8 py-3 text-purple-100 rounded-full  hover:text-gray-700 hover:bg-transparent hover:border hover:border-gray-700
+  }
+  .modern-items-icon{
+    @apply bg-purple-50 p-3 text-gray-700 w-fit text-4xl text-center mx-auto rounded-xl shadow
+  }
+  .stylist-lg{
+    @apply w-[400px] top-[0px]
+  }
+  .stylist-md{
+    @apply w-[300px] top-[-400px]
+  }
+  .arrow-left-lg{
+   @apply left-[400px] top-[290px]
+  }
+  .arrow-left-md{
+    @apply left-[300px] top-[339px]
+  }
+  .arrow-left-sm{
+    @apply  bottom-[200px]
+  }
+
+
+  .arrow-right-lg{
+    @apply left-[309px] top-[32px]
+  }
+  .arrow-right-md{
+    @apply left-[208px] top-[32px]
+  }
+  .arrow-right-sm{
+    @apply left-[0px] top-[-280px]
+  }
+  
+}
+.bg-brands{
+  background-color: rgba(192, 189, 192, 0.212);
+}
+.brands::-webkit-scrollbar{
+  display: none;
+}
+.brands{
+  -ms-overflow-style:none;
+  scrollbar-width: none;
+}
+button{
+  font-family: 'Quicksand', sans-serif;
+}
+::-webkit-scrollbar{
+   width: 16px;
+}
+::-webkit-scrollbar-track{
+   border-radius: 100px;
+
+  background-color: #81748b;
+}
+::-webkit-scrollbar-thumb{
+  height: 100px;
+  border-radius: 100px;
+  border:6px solid rgb(53, 35, 61);
+  border-left: 0;
+  border-right: 0;
+  background-color: rgb(78, 5, 157);
+}
+.gallary::-webkit-scrollbar-thumb{
+  border:6px solid rgb(53, 35, 61);
+  border-top: 0;
+  border-bottom: 0;
+}
+.comfortaa{
+  font-family: 'Comfortaa', cursive;
+}
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.jost{
+  font-family: 'Jost', sans-serif;
+}
+.quicksand{
+  font-family: 'Quicksand', sans-serif;
+}
+.great-vibes{
+  font-family: 'Great Vibes', cursive;
+}
+.tangerine{
+  font-family: 'Tangerine', cursive;
+}
+.tajawal{
+  font-family: 'Tajawal', sans-serif;
+}
+.nautigal{
+  font-family: 'The Nautigal', cursive;
+}
