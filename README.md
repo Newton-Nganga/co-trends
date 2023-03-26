@@ -1,3 +1,7 @@
+
+To visit co-trends use this link   https://co-trends-7jy97hs2z-newton-nganga.vercel.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
