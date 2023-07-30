@@ -4,8 +4,9 @@
 ## Visit
 ```
 
+
  https://co-trends-7jy97hs2z-newton-nganga.vercel.app/
 
 ```
 ## Screensnap
-![cotrends](https://github.com/Newton-Nganga/co-trends/assets/93589514/4a45bdc3-7b7d-4d57-ac12-ab1b865c7991)
+![829shots_so](https://github.com/Newton-Nganga/co-trends/assets/93589514/44b45932-f46a-42b1-b0d7-a83876906de4)
